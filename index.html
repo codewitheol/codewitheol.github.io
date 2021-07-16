@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Example</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <!--Styles-->
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <nav class="side-menu">
+        <ul>
+            <li>
+                <a href="#" rel="home">
+                    <i class="fa fa-home fa-2x"></i>
+                    <span class="nav-text">
+                        Dashboard
+                    </span>
+                </a>
+
+            </li>
+            <li>
+                <a href="#" rel="about">
+                    <i class="fa fa-laptop fa-2x"></i>
+                    <span class="nav-text">
+                        Stars Components
+                    </span>
+                </a>
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-list fa-2x"></i>
+                    <span class="nav-text">
+                        Forms
+                    </span>
+                </a>
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-folder-open fa-2x"></i>
+                    <span class="nav-text">
+                        Pages
+                    </span>
+                </a>
+
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-bar-chart-o fa-2x"></i>
+                    <span class="nav-text">
+                        Graphs and Statistics
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-font fa-2x"></i>
+                    <span class="nav-text">
+                        Quotes
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-table fa-2x"></i>
+                    <span class="nav-text">
+                        Tables
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-map-marker fa-2x"></i>
+                    <span class="nav-text">
+                        Maps
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-info fa-2x"></i>
+                    <span class="nav-text">
+                        Documentation
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="main-menu">
+        <div id="home">eol bossi</div>
+        <div id="about" style="display: none;">eol about</div>
+    </div>
+    <script>
+       $('a').on('click', function(){
+            var target = $(this).attr('rel');
+            $("#"+target).show().siblings("div").hide();
+        });
+    </script>
+
+</body>
+
+</html>
