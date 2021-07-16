@@ -1,7 +1,7 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
-
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);body{margin:0;padding:0;font-family:Raleway;overflow-x:hidden}
+body {overflow: hidden;}
 .fa-2x {
     font-size: 2em;
 }
@@ -134,12 +134,9 @@ nav.side-menu li.active>a,
 }
 
 .main-menu {
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    position: relative;
+    margin-left: 65px;
     height: 100%;
-    left: 65px;
-    overflow: hidden;
     -webkit-transition: width .05s linear;
     transition: width .05s linear;
     -webkit-transform: translateZ(0) scale(1, 1);
