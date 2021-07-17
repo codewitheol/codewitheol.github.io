@@ -83,5 +83,9 @@ pre {
       opacity:1;
     }
   }
+
+.ti-cursor {
+  color: rgba(255, 255, 255, 0.623) !important;
+}
   
 
