@@ -1,38 +1,41 @@
+body {
+  background-color: #097969 !important;
+}
 .raleway-font {
     font-family: Raleway;
 }
 .text-theme {
-    color: #097969;
+    color: #097969 !important;
 }
 .bg-theme {
     background-color: #097969 !important;
 }
 .text-violet {
-    color: #A800D3;
+    color: #B362FF;
 }
 .text-orange {    
     color: #FF9B37;
 }
 pre {
-    background-color: rgba(9, 121, 105, 0.9); padding: 0 20px; height: 160px; overflow-y: hidden !important;
+    background-color: #212121f5; padding: 0 20px; height: 160px; overflow-y: hidden !important;
 }
 .show-800 {
-    display: none;
+    display: none !important;
 }
 @media screen and (max-width: 800px) {
     .remove-800 {
-        display: none;
+        display: none !important;
     }
     .show-800 {
-        display: block;
+        display: block !important;
     }
 }
 .fade-in {
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
-    -moz-animation: fadeIn ease 5s;
-    -o-animation: fadeIn ease 5s;
-    -ms-animation: fadeIn ease 5s;
+    animation: fadeIn ease 2.5s;
+    -webkit-animation: fadeIn ease 2.5s;
+    -moz-animation: fadeIn ease 2.5s;
+    -o-animation: fadeIn ease 2.5s;
+    -ms-animation: fadeIn ease 2.5s;
   }
   
   
@@ -81,4 +84,4 @@ pre {
     }
   }
   
-  
+
