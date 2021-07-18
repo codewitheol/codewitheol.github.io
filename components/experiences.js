@@ -1,8 +1,8 @@
 Vue.component('experienxes-section', {
     template: `
-    <div>
-    <h1 class="display-4 title text-center text-light"><i class="ni ni-archive-2"></i> Experiences</h1>
     <div class="container">
+    <h1 class="display-4 title text-center text-light">Experiences</h1>
+    <div class="slide-right">
         <!-- timeline item 1 -->
         <div class="row">
             <!-- timeline item 1 left dot -->
@@ -27,12 +27,10 @@ Vue.component('experienxes-section', {
                         <p class="text-light">
                             • Modified existing software to correct coding
                             errors, upgrade interfaces and improve overall performance.<br>
-                            <span class="remove-800">
                             • Worked on creating different websites, from e-commerce to live streaming
                             websites, using Java, Groovy, XML, PostgreSQL, ElasticSearch.<br>
                             • Worked closely with clients to collect requirements and ensure project
                             quality.
-                            </span>
                         </p>
                     </div>
                 </div>
@@ -40,7 +38,7 @@ Vue.component('experienxes-section', {
         </div>
         <!--/row-->
     </div>
-    <div class="container py-2">
+    <div class="slide-left">
         <!-- timeline item 1 -->
         <div class="row">
             <!-- timeline item 1 left dot -->
@@ -59,17 +57,15 @@ Vue.component('experienxes-section', {
             </div>
             <!-- timeline item 1 event content -->
             <div class="col py-2">
-                <div class="card border border-light">
+                <div class="card border border-success">
                     <div class="card-body">
                         <h6 class="text-theme font-weight-bold">Python Developer at StarLabs</h6>
                         <p class="education-card-desc">
                             • Completed a 4 month internship with the python
                             team at StarLabs where we developed a question and
                             answer platform for students.<br>
-                            <span class="remove-800">
                             • Helped on designing database models and developing the backend with the latest
-                            technologies(Python, Django, PostgreSQL)
-                            </span>
+                            technologies<br>(Python, Django, PostgreSQL)
                         </p>
                     </div>
                 </div>
@@ -77,7 +73,7 @@ Vue.component('experienxes-section', {
         </div>
         <!--/row-->
     </div>
-    <div class="container">
+    <div class="slide-right">
         <!-- timeline item 1 -->
         <div class="row">
             <!-- timeline item 1 left dot -->

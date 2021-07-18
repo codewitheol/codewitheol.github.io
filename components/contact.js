@@ -10,17 +10,17 @@ Vue.component('contact-form', {
     },
     methods:{
         send() {
-            message("Message sent!")
-        }
+            alert('message sent')
+          }
     },
     template: `
-    <div>
+    <div class="fade-in">
         <link rel="stylesheet" href="/css/login-form.css">
         <main class="main">
         <div class="form-container">
             <section class="wrapper">
-                <div class="heading">
-                    <h1 class="text text-large text-theme">Contact Me</h1>
+                <div>
+                    <h1 class="text text-large text-theme text-center">Contact Me</h1>
                 </div>
                 <div name="login" class="form">
                     <div class="input-control remove-800">
@@ -44,7 +44,7 @@ Vue.component('contact-form', {
                         <input v-model="phone" placeholder="Phone">
                     </div>
                     <div class="input-control">
-                        <textarea v-model="message" placeholder="Your message" rows="4"></textarea>
+                        <textarea v-model="message" placeholder="Your message" rows="3"></textarea>
                     </div>
                     <div class="input-control">
                         <button class="input-submit" @click="send()">Send</button>
