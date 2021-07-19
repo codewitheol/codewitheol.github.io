@@ -142,3 +142,11 @@ nav.side-menu li.active>a,
     -webkit-transform: translateZ(0) scale(1, 1);
     z-index: 999;
 }
+.side-menu>ul.sidebar-expand {
+    position:absolute;
+    left:0;
+    bottom:0;
+    }
+.side-menu:hover .fa-arrow-right {
+    display: none;
+}
