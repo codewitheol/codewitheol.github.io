@@ -26,69 +26,13 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     <script> const eventBus = new Vue (); </script>
 </head>
-
 <body>
-    <nav class="side-menu">
-        <ul>
-            <li>
-                <a href="#" rel="home">
-                    <i class="fa fa-home fa-2x"></i>
-                    <span class="nav-text">Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" rel="experiences">
-                    <i class="fa fa-briefcase fa-2x"></i>
-                    <span class="nav-text">
-                        Experiences
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="#" rel="projects">
-                    <i class="fa fa-tasks fa-2x"></i>
-                    <span class="nav-text">
-                        Projects
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="#" rel="contact-us">
-                    <i class="fa fa-envelope fa-2x"></i>
-                    <span class="nav-text">
-                        Contact Me
-                    </span>
-                </a>
-            </li>
-        </ul>
-        <ul class="sidebar-expand show-800">
-            <li>
-               <a>
-                    <i class="fa fa-arrow-right"></i>
-                </a>
-            </li>  
-        </ul>
+    <nav id="side-menu" class="side-menu">
+        <side-menu></side-menu>
     </nav>
     <div class="main-menu">
         <div id="home">
-            <div class="pt-5 remove-800"></div>
-            <div class="row container-fluid">
-                <h1 class="ml-5 show-800 raleway-font text-light">About Me</h1>
-                <div class="col-md mt-3">
-                    <pre class="mr-3">
-                        <p class="selfintro"></p>
-                    </pre>
-                    <pre class="ml-3" style="background-color: #2e2e2ef5">
-                        <p class="whatido"></p>
-                    </pre>
-                    <pre class="mr-3">
-                        <p class="currentage"></p>
-                    </pre>
-                </div>
-                <div class="col-md remove-800">
-                    <img src="images/profile-pic1.png" width="100%">
-                </div>
-            </div>
+            <about-me></about-me>
         </div>
         <div id="experiences" class="fade-in"  style="display: none;">
             <experiences></experiences>
@@ -99,22 +43,27 @@
         <div id="contact-us" style="display: none;">
             <contact-form></contact-form>
         </div>
+        <div id="skills" style="display: none;">
+            <p>//To Do Skills</p>
+        </div>
     </div>
     <div id="project-modals">
         <project-modals></project-modals>
     </div>
+    <!--Other Scripts-->
+    <script src="/components/side-menu.js"></script>
+    <script src="/components/about-me.js"></script>
+    <script src="/components/contact.js"></script>
+    <script src="/components/experiences.js"></script>
+    <script src="/components/projects.js"></script>
+    <script src="/components/project-modals.js"></script>
+    <script src="/js/type.js"></script>
     <script>
         $('a').on('click', function () {
             var target = $(this).attr('rel');
             $("#" + target).show().siblings("div").hide();
         });
     </script>
-    <!--Other Scripts-->
-    <script src="/js/type.js"></script>
-    <script src="/components/contact.js"></script>
-    <script src="/components/experiences.js"></script>
-    <script src="/components/projects.js"></script>
-    <script src="/components/project-modals.js"></script>
 </body>
 
 </html>

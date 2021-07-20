@@ -5,10 +5,10 @@ Vue.component('project-modals', {
         <div class="modal fade" id="cyber-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content" style="background-color: black;">
-            <div class="modal-header">
+            <div class="modal-header border-0">
                 <h3 class="modal-title text-theme">Cyber City</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="text-theme">&times;</span>
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
                 </button>
             </div>
             <div class="modal-body m-0 p-0">
@@ -74,10 +74,10 @@ Vue.component('project-modals', {
         <div class="modal fade" id="movie-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content" style="background-color: black;">
-            <div class="modal-header">
+            <div class="modal-header border-0">
                 <h3 class="modal-title text-theme">Movie Freaks</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="text-theme">&times;</span>
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
                 </button>
             </div>
             <div class="modal-body m-0 p-0">
@@ -145,10 +145,10 @@ Vue.component('project-modals', {
         <div class="modal fade" id="tower-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content" style="background-color: black;">
-            <div class="modal-header">
+            <div class="modal-header border-0">
                 <h3 class="modal-title text-theme">Tower War</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="text-theme">&times;</span>
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
                 </button>
             </div>
             <div class="modal-body m-0 p-0">
@@ -212,10 +212,10 @@ Vue.component('project-modals', {
         <div class="modal fade" id="dino-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content" style="background-color: black;">
-            <div class="modal-header">
+            <div class="modal-header border-0">
                 <h3 class="modal-title text-theme">Dino Game</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="text-theme">&times;</span>
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
                 </button>
             </div>
             <div class="modal-body m-0 p-0">
@@ -279,10 +279,10 @@ Vue.component('project-modals', {
         <div class="modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content" style="background-color: black;">
-            <div class="modal-header">
+            <div class="modal-header border-0">
                 <h3 class="modal-title text-theme">Portfolio</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="text-theme">&times;</span>
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
                 </button>
             </div>
             <div class="modal-body m-0 p-0">
@@ -344,10 +344,10 @@ Vue.component('project-modals', {
         <div class="modal fade" id="space-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content" style="background-color: black;">
-            <div class="modal-header">
+            <div class="modal-header border-0">
                 <h3 class="modal-title text-theme">Space Invaders</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="text-theme">&times;</span>
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
                 </button>
             </div>
             <div class="modal-body m-0 p-0">
