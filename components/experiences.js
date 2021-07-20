@@ -1,7 +1,7 @@
 Vue.component('experiences', {
     template: `
     <div class="container">
-    <h1 class="display-4 title text-center text-light">Experiences</h1>
+    <h1 class="text-center text-light text-uppercase">Experiences</h1>
     <div class="slide-right">
         <!-- timeline item 1 -->
         <div class="row">

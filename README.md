@@ -1,1 +1,2 @@
-# programmingwitheol.github.io
+# codewitheol.github.io
+### Public portfolio of Eol Nuha
