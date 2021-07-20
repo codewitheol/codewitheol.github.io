@@ -12,7 +12,7 @@ Vue.component('experiences', {
                     <div class="col">&nbsp;</div>
                 </div>
                 <h5>
-                    <span class="badge text-light" style="margin-left: 1.7px;">Now</span>
+                    <span class="badge text-light" style="padding: 3.75px 6.41px;">Now</span>
                 </h5>
                 <div class="row h-50">
                     <div class="col border-right">&nbsp;</div>
@@ -83,7 +83,7 @@ Vue.component('experiences', {
                     <div class="col">&nbsp;</div>
                 </div>
                 <h5>
-                    <span class="badge text-light">2020</span>
+                    <span class="badge text-light" style="padding: 3.75px 5.1px;">2020</span>
                 </h5>
                 <div class="row h-50">
                     <div class="col border-right">&nbsp;</div>
