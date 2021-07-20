@@ -12,8 +12,9 @@ new TypeIt(".selfintro", {
     new TypeIt(".whatido", {
     strings: ["<span class='text-warning'>.whatIDo</span> <span class='text-muted'>{</span>",
             "    <span class='text-violet'>profession:</span> <span class='text-light'>Software Engineer;</span>",
-            "    <span class='text-violet'>frontEnd:</span> <span class='text-light'>CSS, JS, React, Vue;<span>", 
+            "    <span class='text-violet'>frontEnd:</span> <span class='text-light'>CSS, JavaScript, ReactJs, VueJs;<span>", 
             "    <span class='text-violet'>backEnd:</span><span class='text-light'> Python, Java, C++, Groovy; </span>", 
+            "    <span class='text-violet'>hobbies:</span><span class='text-light'> Algorithms, Chess, Voley; </span>", 
             "<span class='text-muted'>}</span>"],
     speed: 50,
     startDelay: 9000,
@@ -28,6 +29,6 @@ new TypeIt(".selfintro", {
             "<span class='text-violet'>else:</span>",
             "    <span class='text-warning'>print(</span><span class='text-orange'>'I am 18 now!'<span><span class='text-warning'>)</span>"],
     speed: 50,
-    startDelay: 20000,
+    startDelay: 23000,
     waitUntilVisible: true
     }).go();

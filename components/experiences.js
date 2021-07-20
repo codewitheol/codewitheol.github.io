@@ -1,4 +1,4 @@
-Vue.component('experienxes-section', {
+Vue.component('experiences', {
     template: `
     <div class="container">
     <h1 class="display-4 title text-center text-light">Experiences</h1>
@@ -12,7 +12,7 @@ Vue.component('experienxes-section', {
                     <div class="col">&nbsp;</div>
                 </div>
                 <h5>
-                    <span class="badge text-light" style="margin-left: 1.5px;">Now</span>
+                    <span class="badge text-light" style="margin-left: 1.7px;">Now</span>
                 </h5>
                 <div class="row h-50">
                     <div class="col border-right">&nbsp;</div>

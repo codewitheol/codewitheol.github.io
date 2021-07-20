@@ -6,10 +6,10 @@
     <title>Portfolio Example</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <!--Styles-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -32,9 +32,7 @@
             <li>
                 <a href="#" rel="home">
                     <i class="fa fa-home fa-2x"></i>
-                    <span class="nav-text">
-                        Home
-                    </span>
+                    <span class="nav-text">Home</span>
                 </a>
             </li>
             <li>
@@ -91,13 +89,17 @@
             </div>
         </div>
         <div id="experiences" class="fade-in"  style="display: none;">
-            <experienxes-section></experienxes-section>
+            <experiences></experiences>
         </div>
         <div id="projects" style="display: none;">
+            <projects></projects>
         </div>
         <div id="contact-us" style="display: none;">
             <contact-form></contact-form>
         </div>
+    </div>
+    <div id="project-modals">
+        <project-modals></project-modals>
     </div>
     <script>
         $('a').on('click', function () {
@@ -109,6 +111,8 @@
     <script src="/js/type.js"></script>
     <script src="/components/contact.js"></script>
     <script src="/components/experiences.js"></script>
+    <script src="/components/projects.js"></script>
+    <script src="/components/project-modals.js"></script>
 </body>
 
 </html>
