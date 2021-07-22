@@ -1,17 +1,59 @@
 Vue.component('contact-form', {
     data() {
         return {
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          message: "",
+          firstName: '',
+          lastName: '',
+          email: '',
+          phone: '',
+          message: '',
         };
-    },
+      },
     methods:{
-        send() {
-            alert('message sent')
-          }
+        sendEmail(e) {
+            const btn = document.getElementById('button');
+            btn.value = 'Sending...';
+            try {
+                emailjs.sendForm('default_service', 'template_uvinz95', e.target, 'user_1wflK7WkbyVGouoePZaLU', {
+                    firstName: this.firstName,
+                    lastName: this.lastName,
+                    email: this.email,
+                    phone: this.phone,
+                    message: this.meessage
+                })
+                setTimeout(() => {  
+                    Swal.fire({
+                        toast: true,
+                        position: 'top-end',
+                        text: 'Message successfully sent!',
+                        icon: 'success',
+                        showConfirmButton: false,
+                        showCloseButton: true,
+                        timerProgressBar: true,
+                        timer: 5000
+                    });
+                    // Reset form field
+                    this.firstName = '';
+                    this.lastName = '';
+                    this.email = '';
+                    this.phone = '';
+                    this.message = '';
+                    btn.value = 'Send';
+                }, 2000);
+              
+            } catch (error) {
+                Swal.fire({
+                    toast: true,
+                    position: 'top-end',
+                    text: JSON.stringify(error),
+                    icon: 'error',
+                    showConfirmButton: false,
+                    showCloseButton: true,
+                    timerProgressBar: true,
+                    timer: 5000
+                });
+                btn.value = 'Send';
+            }
+        },
     },
     template: `
     <div class="fade-in">
@@ -20,36 +62,24 @@ Vue.component('contact-form', {
         <div class="form-container">
             <section class="wrapper">
                 <div>
-                    <h1 class="text text-large text-theme text-center">Contact Me</h1>
+                    <h1 class="text text-large text-theme text-center m-0">Contact Me</h1>
                 </div>
-                <div name="login" class="form">
-                    <div class="input-control remove-800">
-                        <input v-model="firstName" placeholder="First name">
-                        <input v-model="lastName" placeholder="Last name">
+                <form class="form p-3 m-0" id="form" @submit.prevent="sendEmail">
+                    <div class="row input-control">
+                        <input class="col-md m-2" placeholder="First name" name="firstName" id="firstName" required v-model="firstName">
+                        <input class="col-md m-2" placeholder="Last name" name="lastName" id="lastName" required v-model="lastName">
                     </div>
-                    <div class="input-control remove-800">
-                        <input v-model="email" placeholder="Email">
-                        <input v-model="phone" placeholder="Phone">
+                    <div class="row input-control">
+                        <input class="col-md m-2" placeholder="Email" name="email" id="email" required v-model="email">
+                        <input class="col-md m-2" placeholder="Phone" name="phone" id="phone" required v-model="phone">
                     </div>
-                    <div class="input-control show-800">
-                        <input v-model="firstName" placeholder="First name">
+                    <div class="input-control row">
+                        <textarea placeholder="Your message" rows="3" name="message" id="message" minlength="15" class="m-2" v-model="message"></textarea>
                     </div>
-                    <div class="input-control show-800">
-                        <input v-model="lastName" placeholder="Last name">
+                    <div class="input-control row">
+                        <input class="input-submit m-2" type="submit" id="button" value="Send">
                     </div>
-                    <div class="input-control show-800">
-                        <input v-model="email" placeholder="Email">
-                    </div>
-                    <div class="input-control show-800">
-                        <input v-model="phone" placeholder="Phone">
-                    </div>
-                    <div class="input-control">
-                        <textarea v-model="message" placeholder="Your message" rows="3"></textarea>
-                    </div>
-                    <div class="input-control">
-                        <button class="input-submit" @click="send()">Send</button>
-                    </div>
-                </div>
+                </form>
             </section>
         </div>
     </main>

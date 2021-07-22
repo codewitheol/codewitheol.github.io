@@ -104,12 +104,6 @@ a, button {
     height: auto;
     margin-top: 2rem;
 }
-.main .wrapper .form .input-control {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1.25rem;
-}
 .main .wrapper .form input {
     font-family: inherit;
     font-size: 1rem;
