@@ -400,6 +400,209 @@ Vue.component('project-modals', {
             </div>
         </div>
         </div>
+
+        <!-- ########################### Market Egzoni ################## -->
+        <div class="modal fade" id="market-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style="background-color: black;">
+            <div class="modal-header border-0">
+                <h3 class="modal-title text-theme">E-commerce Website</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body m-0 p-0">
+                <div id="carouselMarket" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="/images/commerce-1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/images/commerce-2.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/images/commerce-3.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/images/commerce-4.png" alt="First slide">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselMarket" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselMarket" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="p-1">
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        Website ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        HTML ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        CSS ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        JavaScript ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        Python(Flask) ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        SQlite3 ✔️
+                    </span>
+                    <br>
+                    <div>
+                    <p class="text-light m-0 p-0">This was one of my first projects as a developer and its an E-commerce website that i created for a local business to sell its products online to costumers.</p>
+                    <p class="text-muted">The technologies that were used in this E-commerce are:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item text-theme bg-transparent border border-muted">Python - with the framework Flask that handled all the backend logic.</li>
+                        <li class="list-group-item text-theme bg-transparent border border-muted">SQlite3 - is a database used for storing movie information</li>
+                        <li class="list-group-item text-theme bg-transparent border border-muted">JavaScript and JQuery - were used for controling the behavior of the website</li>
+                        <li class="list-group-item text-theme bg-transparent border border-muted">CSS and Bootstrap - were used for modals, buttons, icons etc..</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- ########################### Bibliostack ################## -->
+        <div class="modal fade" id="bibliostack-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style="background-color: black;">
+            <div class="modal-header border-0">
+                <h3 class="modal-title text-theme">Bibliostack</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body m-0 p-0">
+                <div id="carouselBiblio" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="/images/biblio1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/images/biblio2.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/images/biblio3.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/images/biblio4.png" alt="First slide">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselBiblio" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselBiblio" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="p-1">
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        Website ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        HTML ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        CSS ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        JavaScript ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        Python(Django) ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        PostgreSQL ✔️
+                    </span>
+                    <br>
+                    <div>
+                    <p class="text-light m-0 p-0">BiblioStack is a question and answer platform, with the options to upload documentation and images for all students and professionals in Kosovo. It is frequently requested in Kosovo.</p>
+                    <p class="text-muted">The technologies that were used in this BiblioStack are:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item text-theme bg-transparent border border-muted">Python - with the framework Django that handled all the backend logic.</li>
+                        <li class="list-group-item text-theme bg-transparent border border-muted">PostgreSQL - is a database used for storing movie information</li>
+                        <li class="list-group-item text-theme bg-transparent border border-muted">JavaScript and JQuery - were used for controling the behavior of the website</li>
+                        <li class="list-group-item text-theme bg-transparent border border-muted">CSS and Bootstrap - were used for modals, buttons, icons etc..</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- ########################### Super Mario Game ################## -->
+        <div class="modal fade" id="super-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style="background-color: black;">
+            <div class="modal-header border-0">
+                <h3 class="modal-title text-theme">Super Mario</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="text-theme text-large">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body m-0 p-0">
+                <div id="carouselMario" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="/images/mario1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/images/mario2.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/images/mario3.png" alt="First slide">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselMario" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselMario" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="p-1">
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        Game ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        2D ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        Python ✔️
+                    </span>
+                    <span class="btn btn-primary btn-tag bg-theme">
+                        PyGame ✔️
+                    </span> 
+                    <br>
+                    <div>
+                    <p class="text-light m-0 p-0">Super Mario is a desktop application game and its a replica of the Super Marios first level. This a 2D game and I created it with the help of youtube tutorials.</p>
+                    <p class="text-muted">The technologies that were used in Super Mario are:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item text-theme bg-transparent border border-muted">Python - that handled all the game logic</li>
+                        <li class="list-group-item text-theme bg-transparent border border-muted">PyGame - is a python module to create 2D desktop games</li>
+                        <li class="list-group-item text-theme bg-transparent border border-muted">Sprinter - was used to create all the sprints for the game</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
     </div>
     `
 });

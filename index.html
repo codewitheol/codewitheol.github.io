@@ -10,6 +10,7 @@
     <!--Styles-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="/css/projects.css">
     <link rel="stylesheet" href="/css/skills.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/styles.css">
@@ -48,6 +49,7 @@
             <contact-form></contact-form>
         </div>
         <div id="skills" style="display: none;">
+            <h2 id="titleStyle">My skills</h2>
             <skills></skills>
         </div>
     </div>
@@ -64,27 +66,7 @@
     <script src="/components/skills.js"></script>
     <script src="/js/type.js"></script>
     <script src="/js/tagcanvas.min.js"></script>
-    <script>
-        $('a').on('click', function () {
-            var target = $(this).attr('rel');
-            $("#" + target).show().siblings("div").hide();
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-          if( ! $('#myCanvas').tagcanvas({
-            textColour : '#ffffff',
-            outlineColour: 'transparent',
-            outlineThickness : 0,
-            maxSpeed : 0.03,
-            depth : 0.75
-          })) {
-            // TagCanvas failed to load
-            $('#myCanvasContainer').hide();
-          }
-          // your other jQuery stuff here...
-        });
-       </script>
+    <script src="/js/website.js"></script>
 </body>
 
 </html>

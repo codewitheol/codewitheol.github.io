@@ -1,6 +1,6 @@
 Vue.component('skills', {
     template: `
-    <div class="row">
+    <div class="row ">
     <div class="col-md">
         <div class="container__progressbars">
 
@@ -50,14 +50,14 @@ Vue.component('skills', {
     <div id="myCanvasContainer" class="col-md">
           <canvas id="myCanvas" width="500" height="500" style="width: 100%">
               <ul>
-                  <li><a data-weight="25" href="#">Python</a></li>
-                  <li><a data-weight="25" href="#">CSS</a></li>
-                  <li><a data-weight="25" href="#">VueJs</a></li>
+                  <li><a data-weight="25" href="#">XML</a></li>
+                  <li><a data-weight="25" href="#">Linux</a></li>
+                  <li><a data-weight="25" href="#">PostgreSQL</a></li>
                   <li><a data-weight="25" href="#">TypeScript</a></li>
                   <li><a data-weight="24" href="#">REST</a></li>
                   <li><a data-weight="14" href="#">JSON</a></li>
                   <li><a data-weight="13" href="#">Java</a></li>
-                  <li><a data-weight="14" href="#">JavaScript</a></li>
+                  <li><a data-weight="14" href="#">Pygame</a></li>
                   <li><a data-weight="26" href="#">Wordpress</a></li>
                   <li><a data-weight="26" href="#">Django</a></li>
 
@@ -66,7 +66,7 @@ Vue.component('skills', {
                   <li><a data-weight="17" href="#">C++</a></li>
                   <li><a data-weight="23" href="#">Bootstrap</a></li>
                   <li><a data-weight="15" href="#">SASS</a></li>
-                  <li><a data-weight="24" href="#">ReactJS</a></li>
+                  <li><a data-weight="24" href="#">Sqlite3</a></li>
                   <li><a data-weight="12" href="#">jQuery</a></li>
                   <li><a data-weight="19" href="#">SQL</a></li>
                   <li><a data-weight="19" href="#">Groovy</a></li>

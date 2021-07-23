@@ -2,8 +2,8 @@ Vue.component('about-me', {
     template: `
         <div>
             <div class="pt-5 remove-800"></div>
+            <h1 class="show-800" id="titleStyle">About me</h1>
             <div class="row mx-0">
-                <h1 class="ml-5 show-800 raleway-font text-light">About Me</h1>
                 <div class="col-md mt-3">
                     <pre class="mr-3">
                         <p class="selfintro"></p>

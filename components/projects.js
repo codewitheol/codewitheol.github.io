@@ -1,7 +1,6 @@
 Vue.component('projects', {
     template: `
         <div>
-            <link rel="stylesheet" href="/css/projects.css">
             <h2 id="titleStyle">My projects</h2>
             <div class="imageContainer">
             <hr id="showCaseBackgroundLine">
@@ -17,6 +16,18 @@ Vue.component('projects', {
             </div>
             <br>
             <br>
+            <div class="show-800">
+                <div class="imageContainer">
+                    <hr id="showCaseBackgroundLine">
+                    <div class="image a" style="background-image: url('/images/movie-freaks.png')" data-toggle="modal" data-target="#movie-modal">
+                    </div>
+                    <div class="image c" style="background-image: url('/images/portfolio.png')" data-toggle="modal" data-target="#portfolio-modal">
+                    </div>
+                
+                </div>
+                <br>
+                <br>
+            </div>
             <div class="imageContainer">
                 <hr id="showCaseBackgroundLine">
                 <div class="image a" style="background-image: url('/images/dino-5.png')" data-toggle="modal" data-target="#dino-modal"></div>
@@ -28,16 +39,20 @@ Vue.component('projects', {
             </div>
             <br>
             <br>
-            <div class="show-800">
-                <div class="imageContainer">
-                    <hr id="showCaseBackgroundLine">
-                    <div class="image a" style="background-image: url('/images/movie-freaks.png')" data-toggle="modal" data-target="#movie-modal">
-                    </div>
-                    <div class="image c" style="background-image: url('/images/portfolio.png')" data-toggle="modal" data-target="#portfolio-modal">
-                    </div>
-                
-                </div>
+            <div class="imageContainer">
+            <hr id="showCaseBackgroundLine">
+            <div class="image a" style="background-image: url('/images/biblio1.png')" data-toggle="modal" data-target="#bibliostack-modal">
             </div>
+
+            <div class="image b remove-800" style="background-image: url('/images/commerce-1.png')" data-toggle="modal" data-target="#market-modal">
+            </div>
+
+            <div class="image c" style="background-image: url('/images/mario1.png')" data-toggle="modal" data-target="#super-modal">
+            </div>
+            
+            </div>
+            <br>
+            <br>
         </div>
     `
 })
