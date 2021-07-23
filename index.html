@@ -5,10 +5,12 @@
     <meta charset="utf-8">
     <title>Portfolio | Eol Nuha</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta name="google-site-verification" content="frJ1iTP8J6nnDrllgLvnmDvupEWQRDwI4sC5nfTHemE" />
     <link rel="shortcut icon" type="image/png" href="/images/logo.png">
     <!--Styles-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="/css/skills.css">
     <link rel="stylesheet" href="/css/sidebar.css">
     <link rel="stylesheet" href="/css/styles.css">
     <!--Scripts-->
@@ -46,7 +48,7 @@
             <contact-form></contact-form>
         </div>
         <div id="skills" style="display: none;">
-            <p>//To Do Skills</p>
+            <skills></skills>
         </div>
     </div>
     <div id="project-modals">
@@ -59,13 +61,30 @@
     <script src="/components/experiences.js"></script>
     <script src="/components/projects.js"></script>
     <script src="/components/project-modals.js"></script>
+    <script src="/components/skills.js"></script>
     <script src="/js/type.js"></script>
+    <script src="/js/tagcanvas.min.js"></script>
     <script>
         $('a').on('click', function () {
             var target = $(this).attr('rel');
             $("#" + target).show().siblings("div").hide();
         });
     </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          if( ! $('#myCanvas').tagcanvas({
+            textColour : '#ffffff',
+            outlineColour: 'transparent',
+            outlineThickness : 0,
+            maxSpeed : 0.03,
+            depth : 0.75
+          })) {
+            // TagCanvas failed to load
+            $('#myCanvasContainer').hide();
+          }
+          // your other jQuery stuff here...
+        });
+       </script>
 </body>
 
 </html>
