@@ -16,7 +16,7 @@ Vue.component('about-me', {
                     </pre>
                 </div>
                 <div class="col-md remove-800">
-                    <img src="images/profile-pic1.png" width="100%">
+                    <img src="images/profile-pic1.png" width="100%" alt="Portfolio | Eol Nuha">
                 </div>
             </div>
         </div>

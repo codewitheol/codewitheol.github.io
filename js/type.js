@@ -11,7 +11,7 @@ new TypeIt(".selfintro", {
 
     new TypeIt(".whatido", {
     strings: ["<span class='text-warning'>.whatIDo</span> <span class='text-muted'>{</span>",
-            "    <span class='text-violet'>profession:</span> <span class='text-light'>Software Engineer;</span>",
+            "    <span class='text-violet'>profession:</span> <span class='text-light'>Software Developer;</span>",
             "    <span class='text-violet'>frontEnd:</span> <span class='text-light'>CSS, JavaScript, ReactJs, VueJs;<span>", 
             "    <span class='text-violet'>backEnd:</span><span class='text-light'> Python, Java, C++, Groovy; </span>", 
             "    <span class='text-violet'>hobbies:</span><span class='text-light'> Algorithms, Chess, Voley; </span>", 
