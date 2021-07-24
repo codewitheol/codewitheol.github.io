@@ -12,14 +12,13 @@ Vue.component('contact-form', {
         sendEmail(e) {
             const btn = document.getElementById('button');
             btn.value = 'Sending...';
-            try {
-                emailjs.sendForm('default_service', 'template_uvinz95', e.target, 'user_1wflK7WkbyVGouoePZaLU', {
-                    firstName: this.firstName,
-                    lastName: this.lastName,
-                    email: this.email,
-                    phone: this.phone,
-                    message: this.meessage
-                })
+            emailjs.sendForm('default_service', 'template_uvinz95', e.target, 'user_1wflK7WkbyVGouoePZaLU', {
+                firstName: this.firstName,
+                lastName: this.lastName,
+                email: this.email,
+                phone: this.phone,
+                message: this.meessage
+            }).then(res => {
                 setTimeout(() => {  
                     Swal.fire({
                         toast: true,
@@ -38,13 +37,12 @@ Vue.component('contact-form', {
                     this.phone = '';
                     this.message = '';
                     btn.value = 'Send';
-                }, 2000);
-              
-            } catch (error) {
+                }, 1000);
+            }).catch(err => {
                 Swal.fire({
                     toast: true,
                     position: 'top-end',
-                    text: JSON.stringify(error),
+                    text: JSON.stringify(err.text),
                     icon: 'error',
                     showConfirmButton: false,
                     showCloseButton: true,
@@ -52,7 +50,7 @@ Vue.component('contact-form', {
                     timer: 5000
                 });
                 btn.value = 'Send';
-            }
+            })
         },
     },
     template: `
