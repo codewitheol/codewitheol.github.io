@@ -15,16 +15,16 @@ Vue.component('project-modals', {
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/cyber-black.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/cyber-black.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/cyber-white.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/cyber-white.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/cyber-ipad.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/cyber-ipad.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/cyber-phone.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/cyber-phone.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -84,16 +84,16 @@ Vue.component('project-modals', {
                 <div id="carouselMovie" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/movie-freaks.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/movie-freaks.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/movie-loader.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/movie-loader.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/movie-ipad.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/movie-ipad.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/movie-phone.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/movie-phone.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselMovie" role="button" data-slide="prev">
@@ -155,19 +155,19 @@ Vue.component('project-modals', {
                 <div id="carouselTower" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/tower-1.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/tower-1.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/tower-2.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/tower-2.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/tower-3.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/tower-3.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/tower-4.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/tower-4.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/tower-5.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/tower-5.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselTower" role="button" data-slide="prev">
@@ -222,19 +222,19 @@ Vue.component('project-modals', {
                 <div id="carouselDino" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/dino-5.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/dino-5.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/dino-2.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/dino-2.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/dino-3.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/dino-3.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/dino-4.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/dino-4.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/dino-1.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/dino-1.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselDino" role="button" data-slide="prev">
@@ -289,13 +289,13 @@ Vue.component('project-modals', {
                 <div id="carouselPortfolio" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/portfolio.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/portfolio.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/portfolio-ipad.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/portfolio-ipad.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/portfolio-phone.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/portfolio-phone.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselPortfolio" role="button" data-slide="prev">
@@ -354,13 +354,13 @@ Vue.component('project-modals', {
                 <div id="carouselSpace" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/space-1.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/space-1.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/space-2.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/space-2.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/space-3.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/space-3.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselSpace" role="button" data-slide="prev">
@@ -415,16 +415,16 @@ Vue.component('project-modals', {
                 <div id="carouselMarket" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/commerce-1.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/commerce-1.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/commerce-2.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/commerce-2.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/commerce-3.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/commerce-3.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/commerce-4.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/commerce-4.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselMarket" role="button" data-slide="prev">
@@ -486,16 +486,16 @@ Vue.component('project-modals', {
                 <div id="carouselBiblio" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/biblio1.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/biblio1.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/biblio2.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/biblio2.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/biblio3.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/biblio3.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/biblio4.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/biblio4.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselBiblio" role="button" data-slide="prev">
@@ -557,13 +557,13 @@ Vue.component('project-modals', {
                 <div id="carouselMario" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/images/mario1.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/mario1.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/mario2.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/mario2.webp" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/images/mario3.png" alt="First slide">
+                        <img class="d-block w-100" src="/images/mario3.webp" alt="First slide">
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselMario" role="button" data-slide="prev">
