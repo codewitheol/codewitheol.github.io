@@ -11,8 +11,11 @@ $(document).ready(function() {
       outlineColour: 'transparent',
       outlineThickness : 0,
       maxSpeed : 0.03,
+      wheelZoom : false,
       depth : 0.75,
-      initial : [0.2,-0.1]
+      initial : [0.2,-0.1],
+      noMouse : $(window).width() < 800 ? true : false,
+      noSelect : true
     })) {
       // TagCanvas failed to load
       $('#myCanvasContainer').hide();
