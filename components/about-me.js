@@ -12,6 +12,9 @@ Vue.component('about-me', {
                         <p class="whatido"></p>
                     </pre>
                     <pre class="mr-3">
+                        <p class="education"></p>
+                    </pre>
+                    <pre class="ml-3" style="background-color: #2e2e2ef5">
                         <p class="currentage"></p>
                     </pre>
                 </div>
