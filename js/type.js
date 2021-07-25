@@ -24,9 +24,9 @@ new TypeIt(".selfintro", {
     new TypeIt(".education", {
         strings: ["<span class='text-warning'>fetchEducation()</span> <span class='text-muted'>{</span>",
             "    <span class='text-violet'>axios.</span><span class='text-light'>get</span><span class='text-muted'>(</span><span class='text-orange'>`/education/highchool`</span><span class='text-muted'>)</span><span class='text-warning'>.then</span><span class='text-muted'>(</span><span class='text-light'>response </span><span class='text-primary'>=></span> <span class='text-muted'>{</span>",
-            "           <span class='text-primary'>this.</span><span class='text-violet'>schoolName</span><span class='text-secondary'> = </span><span class='text-white'>Kuvendi-Arberit;</span>",
-            "           <span class='text-primary'>this.</span><span class='text-violet'>schoolScope</span><span class='text-secondary'> = </span><span class='text-white'>Natural-Sciences;</span>",
-            "           <span class='text-primary'>this.</span><span class='text-violet'>GPA</span><span class='text-secondary'> = </span><span class='text-white'>5.0/5.0;</span>", 
+            "        <span class='text-primary'>this.</span><span class='text-violet'>schoolName</span><span class='text-secondary'> = </span><span class='text-white'>Kuvendi-Arberit;</span>",
+            "        <span class='text-primary'>this.</span><span class='text-violet'>schoolMajor</span><span class='text-secondary'> = </span><span class='text-white'>Natural-Sciences;</span>",
+            "        <span class='text-primary'>this.</span><span class='text-violet'>GPA</span><span class='text-secondary'> = </span><span class='text-white'>5.0/5.0;</span>", 
             "<span class='text-muted'>})}</span>"],
     speed: 50,
     startDelay: 23000,
