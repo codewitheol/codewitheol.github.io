@@ -108,6 +108,41 @@ Vue.component('experiences', {
         </div>
         <!--/row-->
     </div>
+    <div class="slide-left">
+        <!-- timeline item 1 -->
+        <div class="row">
+            <!-- timeline item 1 left dot -->
+            <div class="col-auto text-center flex-column d-sm-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5>
+                    <span class="badge text-light" style="padding: 3.75px 5.1px;">2020</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+            </div>
+            <!-- timeline item 1 event content -->
+            <div class="col py-2">
+                <div class="card border border-success">
+                    <div class="card-body">
+                        <h6 class="text-theme font-weight-bold">Web Developer Cyber City (Part Time)</h6>
+                        <p class="education-card-desc">
+                            • Created a website for the company to share its services to 
+                            the client which can be found <a href="http://cybercity-ks.com/">here</a> 
+                            or in the projects section of this portfolio.<br>
+                            • Helped on creating modern E-commerce websites using the lastest technologies
+                            <br>(Python, Django, PostgreSQL, JS, Vue.js)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/row-->
+    </div>
 </div>`
 })
 new Vue({el: "#experiences"});
